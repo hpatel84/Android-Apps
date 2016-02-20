@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Temp Converter</string>
     <string name="action_settings">Settings</string>
+    <string name="temp_hint">Enter Temperature</string>
+    <string name="cel_button">C</string>
+    <string name="fahr_button">F</string>
+
 </resources>

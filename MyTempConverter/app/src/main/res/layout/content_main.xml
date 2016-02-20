@@ -12,8 +12,41 @@
     tools:context="app.tempconverter.com.mytempconverter.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextId"
+        android:hint="@string/temp_hint"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cel_button"
+        android:id="@+id/buttonCId"
+        android:layout_below="@+id/editTextId"
+        android:layout_toLeftOf="@+id/editTextId"
+        android:layout_toStartOf="@+id/editTextId"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fahr_button"
+        android:id="@+id/buttonFId"
+        android:layout_alignTop="@+id/buttonCId"
+        android:layout_toRightOf="@+id/editTextId"
+        android:layout_toEndOf="@+id/editTextId" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text=""
+        android:id="@+id/textViewId"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:textSize="25sp"/>
 </RelativeLayout>
