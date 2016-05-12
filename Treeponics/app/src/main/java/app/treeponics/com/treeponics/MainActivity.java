@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mWebView.loadUrl("http://www.treeponics.com/Admin%20Panel/index.html");
+        mWebView.loadUrl("http://treeponics.com/Admin%20Panel/index.html");
         mWebView.setWebViewClient(new HelloWebViewClient());
     }
 
