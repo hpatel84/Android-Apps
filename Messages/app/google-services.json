@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "158008554354",
+    "firebase_url": "https://messages-fd0fb.firebaseio.com",
+    "project_id": "messages-fd0fb",
+    "storage_bucket": "messages-fd0fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158008554354:android:35fabe13b7e71625",
+        "android_client_info": {
+          "package_name": "com.Messages.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158008554354-4j2rnqv0d3unjifj7am01cebl0ef5pkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_YwoE_o6-wVA-sQjgNdTJ9J31qOckM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
