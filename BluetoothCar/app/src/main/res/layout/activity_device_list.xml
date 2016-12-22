@@ -8,10 +8,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.megam.bluetoothcar.DeviceList">
+    tools:context="com.android.megam.bluetoothcar.DeviceList"
+    android:background= "#444444">
 
     <TextView
+        android:text="Paired Devices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/PDText"
+        android:textColor="#eeeeee"/>
+
+    <Button
+        android:text="Paired Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/PDButton" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/PDButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/PDText"
+        android:id="@+id/listView"
+        android:background="#eeeeee"/>
 </RelativeLayout>
+
+
